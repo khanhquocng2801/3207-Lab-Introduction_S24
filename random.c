@@ -6,6 +6,6 @@
 
 char randchar();
 char randchar(){
-    char randomletter = 'A' + (random() % 26);
+    char randomletter = 'A' + (rand() % 26);
     return randomletter;
 }
